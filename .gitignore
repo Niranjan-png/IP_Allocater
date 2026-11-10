@@ -1,0 +1,59 @@
+# Python & Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# SQLite Databases & Local Data
+backend/*.db
+backend/*.db-journal
+backend/*.sqlite3
+*.db
+*.sqlite3
+
+# Node & Frontend
+frontend/node_modules/
+node_modules/
+frontend/dist/
+dist/
+.npm/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment & Secret Files
+.env
+.env.local
+.env.*.local
+*.local
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursor/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Agent & Skill metadata
+.agents/
+skills-lock.json
+
